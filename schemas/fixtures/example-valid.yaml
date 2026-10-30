@@ -1,7 +1,7 @@
 # Valid fixture: exercises the normative field set, the catalogue-instance
 # layer, and one typed relationship instance. Illustrative ids only.
 id: dea:data-entity-example-record
-type: Data Entity
+type: DataEntity
 name: Example Data Entity
 description: 'Fixture: an illustrative data entity record demonstrating the canonical shape; not admitted.'
 version: 1.0.0

@@ -1,0 +1,39 @@
+description: 'The business-object catalog''s canonical record store: per-entity YAML subtrees plus the generated CATALOG.yaml index covering 74 canonical real-world business objects (Customer, Invoice, Order, and peers).'
+evidence:
+  rationale: Committed store under a freshness gate; 74 canonical records at admission. Corroborated at admission.
+  sources:
+  - kind: repository-path
+    reference: technehub-labs/dea-catalog-business-objects:CATALOG.yaml
+governance:
+  approval_status: approved
+  functional_owner: Emmanuel A. Otchere
+  review_date: '2026-11-02'
+  source_and_evidence: Population CR-DE-CAT-02; sources cited per record under evidence.
+  steward: Emmanuel A. Otchere
+id: dea:data-entity-business-objects-catalog-store
+lifecycle_status: active
+metadata:
+  created_at: '2026-11-02'
+  created_by: Emmanuel A. Otchere
+  status: active
+  updated_at: '2026-11-02'
+name: Business Object Catalog Record Store
+provenance:
+  ladder_passage:
+  - actor: Emmanuel A. Otchere
+    date: '2026-11-02'
+    stage: candidate
+  - actor: Emmanuel A. Otchere
+    date: '2026-11-02'
+    stage: corroborated
+  - actor: Emmanuel A. Otchere
+    date: '2026-11-02'
+    stage: reviewed
+  - actor: Emmanuel A. Otchere
+    date: '2026-11-02'
+    stage: canonical
+tags:
+- seed
+- catalog-store
+type: DataEntity
+version: 1.0.0

@@ -2,8 +2,8 @@ catalog:
   abbreviation: DE
   counts:
     candidates: 0
-    canonical: 0
-    entities: 0
+    canonical: 9
+    entities: 9
     open_change_requests: 0
     research_files: 0
     retired: 0
@@ -16,12 +16,138 @@ catalog:
   description: 'A persistent data structure (table, document, graph node) that realises one or more business objects.
 
     '
-  entities: []
+  entities:
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:data-entity-actors-catalog-store
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:data-entity-actors-catalog-store/dea:data-entity-actors-catalog-store.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: DataEntity
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:data-entity-business-objects-catalog-store
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:data-entity-business-objects-catalog-store/dea:data-entity-business-objects-catalog-store.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: DataEntity
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:data-entity-capabilities-catalog-store
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:data-entity-capabilities-catalog-store/dea:data-entity-capabilities-catalog-store.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: DataEntity
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:data-entity-information-assets-catalog-store
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:data-entity-information-assets-catalog-store/dea:data-entity-information-assets-catalog-store.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: DataEntity
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:data-entity-information-classes-catalog-store
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:data-entity-information-classes-catalog-store/dea:data-entity-information-classes-catalog-store.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: DataEntity
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:data-entity-metamodel-sqlite-schema
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:data-entity-metamodel-sqlite-schema/dea:data-entity-metamodel-sqlite-schema.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: DataEntity
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:data-entity-processes-catalog-store
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:data-entity-processes-catalog-store/dea:data-entity-processes-catalog-store.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: DataEntity
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:data-entity-roles-catalog-store
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:data-entity-roles-catalog-store/dea:data-entity-roles-catalog-store.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: DataEntity
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:data-entity-value-streams-catalog-store
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:data-entity-value-streams-catalog-store/dea:data-entity-value-streams-catalog-store.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: DataEntity
+    version: 1.0.0
   id: dea:catalog-data-entities
   metamodel_version: 1.0.0
   name: Data Entity
   owner: TechNeHub Labs
   repository: https://github.com/technehub-labs/dea-catalog-data-entities.git
-  research_registers: []
+  research_registers:
+  - entity_id: dea:data-entity-actors-catalog-store
+    files: []
+    path: entities/v1-alpha/dea:data-entity-actors-catalog-store/research/
+  - entity_id: dea:data-entity-business-objects-catalog-store
+    files: []
+    path: entities/v1-alpha/dea:data-entity-business-objects-catalog-store/research/
+  - entity_id: dea:data-entity-capabilities-catalog-store
+    files: []
+    path: entities/v1-alpha/dea:data-entity-capabilities-catalog-store/research/
+  - entity_id: dea:data-entity-information-assets-catalog-store
+    files: []
+    path: entities/v1-alpha/dea:data-entity-information-assets-catalog-store/research/
+  - entity_id: dea:data-entity-information-classes-catalog-store
+    files: []
+    path: entities/v1-alpha/dea:data-entity-information-classes-catalog-store/research/
+  - entity_id: dea:data-entity-metamodel-sqlite-schema
+    files: []
+    path: entities/v1-alpha/dea:data-entity-metamodel-sqlite-schema/research/
+  - entity_id: dea:data-entity-processes-catalog-store
+    files: []
+    path: entities/v1-alpha/dea:data-entity-processes-catalog-store/research/
+  - entity_id: dea:data-entity-roles-catalog-store
+    files: []
+    path: entities/v1-alpha/dea:data-entity-roles-catalog-store/research/
+  - entity_id: dea:data-entity-value-streams-catalog-store
+    files: []
+    path: entities/v1-alpha/dea:data-entity-value-streams-catalog-store/research/
   status: active
   version: 0.1.0

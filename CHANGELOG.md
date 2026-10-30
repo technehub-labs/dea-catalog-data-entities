@@ -11,3 +11,6 @@ catalogue-instance layer; vendored relationship-instance contract; fixtures;
 gates 1-6 wired into `validate-catalogue.yml` plus allocation and authorship
 workflows; FOUNDATIONS (D-1..D-6) and record documentation standard. No
 records admitted (population gated on CR-DE-CAT-02).
+- `CR-DE-CAT-02` — initial population: 9 canonical Data Entity records (metamodel SQLite schema + the
+  8 populated catalogs' record stores), each evidence-cited; `represents` realization deferred pending
+  matching canonical business objects. CATALOG.yaml regenerated (9 entities).
