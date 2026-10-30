@@ -17,7 +17,7 @@
     },
     "type": {
       "type": "string",
-      "const": "Data Entity"
+      "const": "DataEntity"
     },
     "name": {
       "type": "string",

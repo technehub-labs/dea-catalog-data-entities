@@ -26,7 +26,7 @@ FIXTURE_VALID = REPO / "schemas" / "fixtures" / "example-valid.yaml"
 FIXTURE_INVALID = REPO / "schemas" / "fixtures" / "example-invalid.yaml"
 RECORD_GLOB = "entities/v1-alpha/**/*.yaml"
 
-EXPECTED_TYPE_CONST = "Data Entity"
+EXPECTED_TYPE_CONST = "DataEntity"
 EXPECTED_LIFECYCLE_ENUM = ["proposed", "planned", "active", "deprecated", "retired"]
 EXPECTED_REQUIRED = ["id", "type", "name", "version", "lifecycle_status"]
 EXPECTED_ID_PATTERN = "^dea:data-entity-[a-z0-9-]+$"

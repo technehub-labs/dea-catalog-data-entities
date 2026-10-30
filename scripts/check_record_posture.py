@@ -51,8 +51,8 @@ def main() -> int:
         if not CANONICAL_ID.fullmatch(rid):
             findings.append(f"{Path(f).relative_to(REPO)}: id {rid!r} is not a canonical Data Entity id")
         rtype = doc.get("type") or ""
-        if rtype != "Data Entity":
-            findings.append(f"{Path(f).relative_to(REPO)}: type {rtype!r} is not 'Data Entity'")
+        if rtype != "DataEntity":
+            findings.append(f"{Path(f).relative_to(REPO)}: type {rtype!r} is not 'DataEntity'")
 
     if findings:
         print("Posture findings:")
